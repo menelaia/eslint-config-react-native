@@ -14,12 +14,15 @@ module.exports = {
     "react",
     "react-native",
     "import",
-    "simple-import-sort"
+    "simple-import-sort",
+    "unused-imports"
   ],
   env: {
     "react-native/react-native": true
   },
   rules: {
+    "no-console": "warn",
+    "no-nested-ternary": "off",
     "no-use-before-define": 0,
     "no-restricted-globals": 0,
     "prefer-const": ["warn", {
@@ -28,6 +31,7 @@ module.exports = {
     "import/order": "off",
     "import/extensions": 0,
     "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": [
       "error",
@@ -51,6 +55,7 @@ module.exports = {
         ]
       }
     ],
+    "unused-imports/no-unused-imports": 1,
 
     // React rules
     "react/no-did-update-set-state": "off",
