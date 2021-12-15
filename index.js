@@ -40,13 +40,13 @@ module.exports = {
           [
             // Packages. `react` related packages come first.
             "^react",
-            // Packages
-            "^(@?\\w)$",
             // Side effect imports.
+            "^@?\\w",
             "^\\u0000",
             // Parent imports. Put `..` last.
             "^\\.\\.(?!/?$)",
             "^\\.\\./?$",
+            "^",
             // Other relative imports. Put same-folder imports and `.` last.
             "^\\./(?=.*/)(?!/?$)",
             "^\\.(?!/?$)",
