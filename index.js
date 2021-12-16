@@ -21,10 +21,12 @@ module.exports = {
     "react-native/react-native": true
   },
   rules: {
+    "brace-style": ["error", "1tbs"],
     "no-console": "warn",
     "no-nested-ternary": "off",
     "no-use-before-define": 0,
     "no-restricted-globals": 0,
+    "object-curly-newline": 0,
     "prefer-const": ["warn", {
       "ignoreReadBeforeAssign": true
     }],
