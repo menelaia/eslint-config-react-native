@@ -21,12 +21,10 @@ module.exports = {
     "react-native/react-native": true
   },
   rules: {
-    "brace-style": ["error", "1tbs"],
     "no-console": "warn",
     "no-nested-ternary": "off",
     "no-use-before-define": 0,
     "no-restricted-globals": 0,
-    "object-curly-newline": 0,
     "prefer-const": ["warn", {
       "ignoreReadBeforeAssign": true
     }],
@@ -64,6 +62,7 @@ module.exports = {
     "react/require-default-props": 2,
     "react/forbid-prop-types": 0,
     "react/static-property-placement": 0,
+    "react/display-name": "off",
     "react/sort-comp": 0,
     "react/jsx-filename-extension": [0, { "extensions": [".jsx", ".js"] }],
     "react/jsx-props-no-spreading": 0,
