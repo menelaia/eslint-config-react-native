@@ -21,6 +21,7 @@ module.exports = {
     "react-native/react-native": true
   },
   rules: {
+    "max-len": ["error", { "code": 80 }],
     "no-console": "warn",
     "no-nested-ternary": "off",
     "no-use-before-define": 0,
