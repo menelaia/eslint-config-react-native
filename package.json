@@ -1,6 +1,6 @@
 {
   "name": "@menelaia/eslint-config-react-native",
-  "version": "1.0.1-rc.0",
+  "version": "1.0.1",
   "description": "Eslint config for React Native projects",
   "main": "index.js",
   "dependencies": {
